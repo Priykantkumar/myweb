@@ -80,16 +80,16 @@ body{
     
 
 }
-@media( max-width: 1028px){
+@media( max-width: 1200px){
   #title{
       text-align: center;
   }
-	.hero-img{
-		display: block;
+	.center{
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-	}
+}
 	
   .title-image {
       position: static;
