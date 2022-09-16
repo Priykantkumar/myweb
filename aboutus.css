@@ -79,10 +79,18 @@ body{
 }
     
 .hero-img{
-    border-top-left-radius: 25rem;
-    border-top-right-radius: 25rem;
-    border-bottom-right-radius: 25rem;
-	border-bottom-left-radius: 25rem;
-	height:70vh;
-	width:70vh;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+	border-bottom-left-radius: 10rem;
+	height:30vh;
+	width:30vh;
 }
+@media( max-width: 1028px){
+  #title{
+      text-align: center;
+  }
+  .title-image {
+      position: static;
+      transform: rotate(0);
+  }
